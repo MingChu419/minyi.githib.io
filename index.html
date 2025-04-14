@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href = "style.css" type = "text/css" rel= "stylesheet">
+        <title>
+            Minyi Chu's Portfolio
+        </title>
+    
+    </head>
+    <body>
+    <main>
+    <header>
+            <nav class = "topnav" id = "portfolioTopnav">
+                <a href = "#contact">Contact</a>
+                <a href = "#accomplishements">Accomplishments</a>
+                <a href = "#skills">Skills</a>
+                <a href = "#about">About</a>
+                <a href = "havascript:void(0);" class = "icon" onclick = "openMenu()">
+                    <i class = "fa fa-bars"></i></a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#Accomplishments">Accomplishments</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Minyi Chu</h1>
+    </header>
+        <div id = "aboutsection">
+            <figure>
+            <a href="https://www.linkedin.com/in/minyi-chu-182950331/" target = "_blank">
+                <img src= "ersonal image.png" alt = "A personal image from 2024"/></a>
+            </figure>
+            <h2 id = "about" class = "heading uppercase">About</h2>
+            <p>
+                I am a <strong> PhD student </strong> and interested in dark personality traits and cyberbullying.
+                If you have any problems about these topics, please feel free to contact me. 
+            </p>
+            <p>My email address: <em>minyi.chu@hdr.qut.edu.au</em></p>
+        </div><br>
+        <h3 id = "skills">Skills</h3>
+        <h4>Research Skills</h4>
+        <ul class = "list">
+            <li>Data analysis</li>
+            <li>Problem solving</li>
+            <li>Academic writing</li>
+        </ul>
+        <h4>Personal Skills</h4>
+        <ul class = "list">
+            <li>Team work</li>
+            <li>Leadership</li>
+            <li>Time management</li>
+        </ul>
+        <h4>Technical Skills</h4>
+        <ul class = "list">
+            <li>SPSS</li>
+            <li>Programming language</li>
+            <li>Effective communication within technical contexts</li>
+        </ul>
+        </div>
+        <!-- Accomplishments Section-->
+        <div id = "Accomplishments">
+            <h2>Accomplishments</h2>
+            <h3>Coding Examples</h3>
+            <a href = "quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+            <table>
+                <tr>
+                    <th scope = "col">Publications</th>
+                    <th scope = "col">Awards</th>
+                    <th scope = "col">Presentations</th>
+                </tr>
+                <tr>
+                    <td>content</td>
+                    <td>content</td>
+                    <td>content</td>
+                </tr>   
+            </table>
+        </div>
+        <h2>Projects</h2>
+        <!-- Contact Section-->
+        <div id = "Contact">
+            <h2 class = "contactform">Contact</h2>
+            <a href="https://www.linkedin.com/in/minyi-chu-182950331/" target="_blank"> 
+            <a href = "javascript:void(0); "class="icon" onclick = "openMenu"><i class = "fa fa-bars"></i></a>a>
+                More inforamtion about me.</a>
+            <form>
+                <label for = "name"> *Please enter your First Name</label>
+                <br><br>
+                <label for = "email"> *email</label>
+                <br>
+                <input type = "email" name = "email" id = "email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <br><br>
+                <label for = "mobile"> Mobile (option):</label>
+                <br>
+                <input type = "tel" name = "mobile" id = "mobile" pattern = "[0-9]{10,16}">
+                <input type = "text" name = "name" id = "name" required>
+                <br><br>
+                <label for = "message"> *Leave your message below:</label>
+                <br>
+                <textarea id = "message" name = "message" rows = "5" cols = "30" required></textarea>
+                <br><br>
+                <input type = "submit">
+            </form>
+            <fotter>
+                Email me at <a href= "mialto:minyi.chu@hdr.qut.edu.au"
+                target = "_blank"> minyi.chu@hdr.qut.edu.au
+                </a>
+            </fotter>
+        </div>
+    </header>   
+    </main>
+        <script src="nav.js"></script>
+    </body> 
+</html>
