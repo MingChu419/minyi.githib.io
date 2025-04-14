@@ -1,0 +1,11 @@
+.question{
+    font-weight: bold;
+}
+
+.answer{
+    margin-left: 20px;
+}
+
+.answers label{
+    display: block;
+}
